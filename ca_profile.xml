@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<CommunityApplications>
+  <Profile>Cantinarr is a self-hosted request and media-management front end for Radarr, Sonarr, and Chaptarr. Your household browses movies, TV, and books and taps request; you keep approvals, per-user access, and quality control.
+
+This repository holds its Unraid Community Applications template. The application itself lives at https://github.com/windoze95/cantinarr and the template is updated from there whenever a port, volume, or environment variable changes.
+
+Support: open an issue at https://github.com/windoze95/cantinarr/issues -- feature requests go to https://cantinarr.com/roadmap/ , no account needed.</Profile>
+  <Icon>https://raw.githubusercontent.com/windoze95/cantinarr/main/app/web/icons/Icon-512.png</Icon>
+  <WebPage>https://cantinarr.com</WebPage>
+  <DonateLink>https://github.com/sponsors/windoze95</DonateLink>
+  <DonateText>Support Cantinarr development</DonateText>
+</CommunityApplications>
