@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <CommunityApplications>
   <Profile>Cantinarr is one app over your whole media stack. The people in your house browse, request movies, TV, and books, and get a push notification when something is ready. You get everything behind that: Radarr, Sonarr, and Chaptarr, your download clients, Tautulli activity, and Plex invites.
-
+[br][br]
 This repository holds its Unraid Community Applications template. The application itself lives at https://github.com/windoze95/cantinarr and the template is updated from there whenever a port, volume, or environment variable changes.
-
+[br][br]
 Report problems at https://github.com/windoze95/cantinarr/issues . Feature requests go to https://cantinarr.com/roadmap/ , no account needed.</Profile>
   <Icon>https://raw.githubusercontent.com/windoze95/cantinarr/main/app/web/icons/Icon-512.png</Icon>
   <WebPage>https://cantinarr.com</WebPage>
