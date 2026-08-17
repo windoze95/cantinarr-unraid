@@ -10,7 +10,7 @@
   <WebUI>http://[IP]:[PORT:8585]/</WebUI>
   <Overview>Your media server just learned to run itself.
 [br][br]
-Cantinarr is one app over your whole media stack. The people in your house browse, request movies, TV, and books, and get a push notification when something is ready. You get everything behind that: Radarr, Sonarr, and Chaptarr controlled down to the individual episode, live queues for SABnzbd, qBittorrent, NZBGet, and Transmission, Tautulli activity, and Plex invites. Nobody but you sees an API key or a quality profile.
+Cantinarr is one app over your whole media stack. The people in your house browse, request movies, TV, and books from the web app or the companion iPhone and Android apps, and get a push notification when something is ready. You get everything behind that: Radarr, Sonarr, and Chaptarr controlled down to the individual episode, live queues for SABnzbd, qBittorrent, NZBGet, and Transmission, Tautulli activity, and Plex invites. It is also an MCP server: connect Claude or any MCP client and manage your library with the same tools that power the built-in AI assistant. Nobody but you sees an API key or a quality profile.
 [br][br]
 When a download gets stuck, Cantinarr reads what your services already know and tells you in plain English what went wrong, then offers to fix it. You can also turn the agent on. It watches for the same problems, waits to see whether Sonarr or Radarr sorts things out on its own, and only then brings you something to approve. You set what it is allowed to do, and nothing destructive happens without your approval.
 [br][br]
@@ -22,15 +22,18 @@ It runs as one container on one port. The same process serves the web app, and t
   <Category>MediaApp:Video MediaApp:Books Tools:Utilities</Category>
   <ExtraSearchTerms>radarr sonarr chaptarr readarr requests request manager overseerr jellyseerr ombi petio movies tv books ebooks audiobooks plex tmdb trakt ai mcp</ExtraSearchTerms>
   <Requires>Nothing beyond this container. Radarr, Sonarr, Chaptarr, download clients, Tautulli, and Plex are all optional and are added from the admin UI after first run.</Requires>
-  <Changes>2026-08-16: first Community Applications release.</Changes>
-  <Date>2026-08-16</Date>
+  <Changes>2026-08-17: mention the companion phone apps and the MCP server up front, add phone screenshots.[br]2026-08-16: first Community Applications release.</Changes>
+  <Date>2026-08-17</Date>
   <MinVer>6.1</MinVer>
   <License>AGPLv3</License>
   <DonateLink>https://github.com/sponsors/windoze95</DonateLink>
   <DonateText>Support Cantinarr development</DonateText>
   <Screenshot>https://raw.githubusercontent.com/windoze95/cantinarr-unraid/main/screenshots/01-discover.jpg</Screenshot>
+  <Screenshot>https://raw.githubusercontent.com/windoze95/cantinarr-unraid/main/screenshots/05-phone-discover.jpg</Screenshot>
   <Screenshot>https://raw.githubusercontent.com/windoze95/cantinarr-unraid/main/screenshots/04-request.png</Screenshot>
+  <Screenshot>https://raw.githubusercontent.com/windoze95/cantinarr-unraid/main/screenshots/06-phone-seasons.jpg</Screenshot>
   <Screenshot>https://raw.githubusercontent.com/windoze95/cantinarr-unraid/main/screenshots/03-sonarr-library.jpg</Screenshot>
+  <Screenshot>https://raw.githubusercontent.com/windoze95/cantinarr-unraid/main/screenshots/07-phone-downloads.jpg</Screenshot>
   <Screenshot>https://raw.githubusercontent.com/windoze95/cantinarr-unraid/main/screenshots/02-issues.png</Screenshot>
 
   <Config Name="WebUI" Target="8585" Default="8585" Mode="tcp" Description="Port for the Cantinarr web app and API. The container always listens on 8585; change only the host side if something else already uses it." Type="Port" Display="always" Required="true" Mask="false">8585</Config>
