@@ -11,9 +11,11 @@ docs, and issues live in the [main repository](https://github.com/windoze95/cant
 
 ## Installing
 
-Once Cantinarr is listed, install it from the **Apps** tab. Until then, drop the
-template into Unraid's user-template folder yourself. Unraid removed custom template
-repositories, so this is the manual path:
+Search **Cantinarr** in the **Apps** tab. The listing was approved on 2026-08-16 and
+appears once the next Community Applications build publishes.
+
+If it is not there yet, drop the template into Unraid's user-template folder
+yourself. Unraid removed custom template repositories, so this is the manual path:
 
 ```bash
 curl -o /boot/config/plugins/dockerMan/templates-user/my-cantinarr.xml \
