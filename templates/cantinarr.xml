@@ -29,9 +29,9 @@ It runs as one container on one port. The same process serves the web app, and t
   <DonateLink>https://github.com/sponsors/windoze95</DonateLink>
   <DonateText>Support Cantinarr development</DonateText>
   <Screenshot>https://raw.githubusercontent.com/windoze95/cantinarr-unraid/main/screenshots/01-discover.jpg</Screenshot>
-  <Screenshot>https://raw.githubusercontent.com/windoze95/cantinarr-unraid/main/screenshots/04-request.jpg</Screenshot>
+  <Screenshot>https://raw.githubusercontent.com/windoze95/cantinarr-unraid/main/screenshots/04-request.png</Screenshot>
   <Screenshot>https://raw.githubusercontent.com/windoze95/cantinarr-unraid/main/screenshots/03-sonarr-library.jpg</Screenshot>
-  <Screenshot>https://raw.githubusercontent.com/windoze95/cantinarr-unraid/main/screenshots/02-issues.jpg</Screenshot>
+  <Screenshot>https://raw.githubusercontent.com/windoze95/cantinarr-unraid/main/screenshots/02-issues.png</Screenshot>
 
   <Config Name="WebUI" Target="8585" Default="8585" Mode="tcp" Description="Port for the Cantinarr web app and API. The container always listens on 8585; change only the host side if something else already uses it." Type="Port" Display="always" Required="true" Mask="false">8585</Config>
   <Config Name="Appdata" Target="/config" Default="/mnt/user/appdata/cantinarr" Mode="rw" Description="Cantinarr's database and its generated encryption key. Instance API keys, download-client passwords, and AI credentials are AES-256-GCM encrypted with that key, so back up this folder and keep it out of public shares." Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/cantinarr</Config>
