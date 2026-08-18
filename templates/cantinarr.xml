@@ -8,13 +8,7 @@
   <Privileged>false</Privileged>
   <Icon>https://raw.githubusercontent.com/windoze95/cantinarr/main/app/web/icons/Icon-512.png</Icon>
   <WebUI>http://[IP]:[PORT:8585]/</WebUI>
-  <Overview>Your media server just learned to run itself.
-[br][br]
-Cantinarr is one app over your whole media stack. The people in your house browse, request movies, TV, and books from the web app or the companion iPhone and Android apps, and get a push notification when something is ready. You get everything behind that: Radarr, Sonarr, and Chaptarr controlled down to the individual episode, live queues for SABnzbd, qBittorrent, NZBGet, and Transmission, Tautulli activity, and Plex invites. It is also an MCP server: connect Claude or any MCP client and manage your library with the same tools that power the built-in AI agents. No one but you sees an API key or a quality profile.
-[br][br]
-When a download gets stuck, Cantinarr reads what your services already know and tells you in plain English what went wrong, then offers to fix it. You can also turn the agent on. It watches for the same problems, waits to see whether Sonarr or Radarr sorts things out on its own, and only then brings you something to approve. You set what it is allowed to do, and nothing destructive happens without your approval.
-[br][br]
-It runs as one container on one port. The same process serves the web app, and the phone apps only ever talk to this server. Your arrs and download clients can stay on the internal network under names like http://radarr:7878, because Cantinarr never hands one of those URLs to a device to dial. API keys and download client passwords are AES-256-GCM encrypted in its database and never come back out through the API. Sign-in is passwordless by default, with passwords and passkeys available if you want them.</Overview>
+  <Overview>Cantinarr is one app over your whole media stack. The people in your house browse, request movies, TV, and books from the web app or the companion iPhone and Android apps, and get a push notification when something is ready. You get everything behind that: Radarr, Sonarr, and Chaptarr controlled down to the individual episode, live queues for SABnzbd, qBittorrent, NZBGet, and Transmission, Tautulli activity, and Plex invites. It is also an MCP server: connect Claude or any MCP client and manage your library with the same tools that power the built-in AI agents. No one but you sees an API key or a quality profile.[br][br]When a download gets stuck, Cantinarr reads what your services already know and tells you in plain English what went wrong, then offers to fix it. You can also turn the agent on. It watches for the same problems, waits to see whether Sonarr or Radarr sorts things out on its own, and only then brings you something to approve. You set what it is allowed to do, and nothing destructive happens without your approval.[br][br]It runs as one container on one port. The same process serves the web app, and the phone apps only ever talk to this server. Your arrs and download clients can stay on the internal network under names like http://radarr:7878, because Cantinarr never hands one of those URLs to a device to dial. API keys and download client passwords are AES-256-GCM encrypted in its database and never come back out through the API. Sign-in is passwordless by default, with passwords and passkeys available if you want them.</Overview>
   <Support>https://github.com/windoze95/cantinarr/issues</Support>
   <Project>https://github.com/windoze95/cantinarr</Project>
   <TemplateURL>https://raw.githubusercontent.com/windoze95/cantinarr-unraid/main/templates/cantinarr.xml</TemplateURL>
@@ -22,7 +16,7 @@ It runs as one container on one port. The same process serves the web app, and t
   <Category>MediaApp:Video MediaApp:Books Tools:Utilities</Category>
   <ExtraSearchTerms>radarr sonarr chaptarr readarr requests request manager overseerr jellyseerr ombi petio movies tv books ebooks audiobooks plex tmdb trakt ai mcp</ExtraSearchTerms>
   <Requires>Nothing beyond this container. Radarr, Sonarr, Chaptarr, download clients, Tautulli, and Plex are all optional and are added from the admin UI after first run.</Requires>
-  <Changes>2026-08-17: mention the companion phone apps and the MCP server up front, add phone screenshots.[br]2026-08-16: first Community Applications release.</Changes>
+  <Changes>2026-08-17: mention the companion phone apps and the MCP server up front, add phone screenshots, tighten the description.[br]2026-08-16: first Community Applications release.</Changes>
   <Date>2026-08-17</Date>
   <MinVer>6.1</MinVer>
   <License>AGPLv3</License>
