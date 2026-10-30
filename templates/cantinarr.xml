@@ -6,7 +6,7 @@
   <Network>bridge</Network>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Icon>https://raw.githubusercontent.com/windoze95/cantinarr/main/app/web/icons/Icon-512.png</Icon>
+  <Icon>https://cantinarr.com/static/symbol-transparent-v1.png</Icon>
   <WebUI>http://[IP]:[PORT:8585]/</WebUI>
   <Overview>Cantinarr brings media requests and server management into one app. Household members browse and request movies, shows, books, and music, follow downloads, and get notified when content is ready. Admins manage Radarr, Sonarr, Chaptarr, Lidarr, and download clients, review approvals, and investigate stuck downloads from a phone or browser.[br][br]Connect the services you use after setup. The web app runs in the same container, and the companion iPhone and Android apps connect to your server. Plex, Jellyfin, Emby, Audiobookshelf, Tautulli, and Tracearr integrations are available. Import Doctor explains common download problems and offers fixes for an administrator to review.[br][br]AI is optional. Connect a provider if you want an assistant for library questions and requests or an agent that investigates persistent download problems. Administrators choose what it may do. Cantinarr also offers MCP tools for authorized clients.[br][br]The container serves its web app and API on port 8585. Service credentials stay server-side and are encrypted at rest. Sign-in uses connect links by default, with passwords and passkeys available when enabled.</Overview>
   <Support>https://github.com/windoze95/cantinarr/issues</Support>
